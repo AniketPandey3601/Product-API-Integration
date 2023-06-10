@@ -45,10 +45,10 @@ export default function ProductView(props) {
               );
             })}
           </div>
-          <div class="d-flex justify-content-between">
+          <div className="d-flex justify-content-between">
             <button
               type="button"
-              class="btn btn-dark"
+              className="btn btn-dark"
               onClick={() => navigate(-1)}
             >
               &larr;Go Back
