@@ -33,7 +33,7 @@ export default function ProductView(props) {
           <div className="row">
             {props.post.map((item, i) => {
               return (
-                <div className="col-md-4" key={i}>
+                <div className="col-md-4" data-aos="fade-up"  key={i}>
                   <ProductItem
                     post={props.post}
                     title={item.title.slice(0, 50)}

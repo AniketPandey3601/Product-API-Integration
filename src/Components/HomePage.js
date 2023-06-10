@@ -2,12 +2,12 @@ import React from "react";
 import photo from "../Aniket-Pandey_passport.jpg";
 import photo3 from "../droffle.jpeg"
 import AOS from "aos";
-import { useEffect ,useState} from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios"
 
 
-export default function (props) {
+export default function HomePage (props) {
 
 //    async function buttonclick(){
 
@@ -92,11 +92,11 @@ function buttonclick(){
       </div>
       <h1
         style={{
-          color: props.mode === "light" ? "black" : "white",
+          color: props.mode === "light" ? "GrayText" : "white",
           fontFamily: "Arial, Helvetica, sans-serif",
           marginTop: "35px",
           textAlign: "center",
-          color: "GrayText",
+          
         }}
       >
         CLICK BUTTON BELOW TO VIEW PRODUCTS!!
